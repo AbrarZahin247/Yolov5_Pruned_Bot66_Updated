@@ -1,0 +1,1 @@
+python train_prune.py --data custom_data.yaml --cfg models/yolov5n_light_attention.yaml --batch-size 100 --imgsz 640 --epochs 50 --pruning_ratio 0.7
